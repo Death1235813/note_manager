@@ -1,15 +1,12 @@
-from datetime import datetime
-from datetime import timedelta
-username = input('Имя пользователя: ')
-title = input('Заголовок заметки: ')
-content = input('Описание заметки: ')
-status = input('Статус заметки: ')
-due_date = int(input('Срок выполнения (в днях): '))
-created_date = datetime.now()
-issue_date = datetime.now() + timedelta(days = due_date)
+username = 'Death'
+title = 'Начало проекта'
+content = 'Первое задание проекта'
+status = 'В разработке'
+created_date = '30-12-2024'
+issue_date = '30-01-2025'
 print('Имя пользователя:',username)
 print('Заголовок заметки:',title)
 print('Описание заметки:',content )
 print('Статус заметки:',status)
-print('Дата создания заметки: {}-{}-{}'.format(created_date.day,created_date.month,created_date.year))
-print('Дата истечения заметки: {}-{}-{}'.format(issue_date.day,issue_date.month,issue_date.year))
+print('Дата создания заметки:',created_date)
+print('Дата истечения заметки:',issue_date)
