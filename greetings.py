@@ -1,9 +1,9 @@
-username = 'Death'
-title = 'Grade 1'
-content = 'Начало работы над проектом'
-status = 'В разработке'
-created_date = '30-12-2024'
-issue_date = '30-01-2025'
+username = input('Имя пользователя')
+title = input('Заголовок заметки:')
+content = input('Описание заметки:')
+status = input('Статус заметки')
+created_date = input('Дата создания заметки:')
+issue_date = input('Дата истечения заметки:')
 print('Имя пользователя:',username)
 print('Заголовок заметки:',title)
 print('Описание заметки:',content )
