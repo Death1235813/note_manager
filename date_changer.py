@@ -4,9 +4,8 @@ username = 'Death'
 title = 'Начало проекта'
 content = 'Второе задание проекта'
 status = 'В разработке'
-due_date = int(input('Срок выполнения заметки (в днях): '))
 created_date = datetime.now()
-issue_date = datetime.now() + timedelta(days = due_date)
+issue_date = datetime.now() + timedelta(days = 30)
 print('Имя пользователя:',username)
 print('Заголовок заметки:',title)
 print('Описание заметки:',content )
