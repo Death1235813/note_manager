@@ -8,9 +8,9 @@ due_date = int(input('Срок выполнения заметки (в днях)
 created_date = datetime.now() # Вводит сегодняшнюю дату компьютера в переменную
 issue_date = datetime.now() + timedelta(days = due_date) # Дата окончания заметки
 while True:
-    title = input('Введите заголовок (для завершения оставьте пустым): ')
+    title = input('Введите заголовок (для завершения оставьте пустым): ') # Переменная хранящая заголовок введённый пользователем
     if title != '':
-        titles.append(title)
+        titles.append(title) # Добавление в список заголовков введённый пользователем заголовок
     else:
         break
 note = [
