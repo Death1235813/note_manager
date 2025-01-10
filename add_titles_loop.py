@@ -19,6 +19,6 @@ content,
 status,
 str(created_date.day) + '-' + str(created_date.month),
 str(issue_date.day) + '-' + str(issue_date.month),
-titles
+set(titles)
 ]
 print(note)
